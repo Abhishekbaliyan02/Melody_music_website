@@ -1,0 +1,240 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* navbar section */
+
+nav{
+    width: 1509px;
+    height: 35px;
+    background-color: rgb(52, 49, 49);
+    padding: 5px;
+    position: fixed;
+}
+nav h1{
+    margin: 7px auto;
+    float: left;
+    font-size: 20px;
+    color: white;
+}
+nav ul{
+    display: flex;
+    width: 350px;
+    margin: 10px auto;
+    justify-content: space-around;
+}
+nav ul li{
+    list-style-type: none;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 17px;
+    color: white;
+}
+
+/* home section */
+
+.home{
+    width: 100%;
+    height: 730px;
+    background-color: red;
+    background: url('./images/image8.avif') no-repeat;  
+    background-size:cover;  
+    color: white;
+}
+.first-page{
+    width: 650px;
+    height: 500px;
+    float: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.home h1{
+    padding: 15px;
+    font-size: 50px;
+}
+.home h3{
+    padding: 5px;
+    font-size: 30px;
+}
+.home p{
+    padding: 15px;
+    color: gray;
+    font-size: 18px;
+}
+
+/* music section */
+
+.music-section{
+    background-color: rgb(38, 37, 37);
+    color: white;
+}
+
+.music{
+    width: 1400px;
+    height: 1000px;
+    text-align: center;
+    padding: 20px;
+    margin: auto;
+}
+.music h1{
+    font-size: 45px;
+    padding: 20px;
+}
+.music h3{
+    font-size: 30px;
+    padding: 10px;
+}
+.music p{
+    font-size: 18px;
+    padding: 20px;
+}
+.music button {
+    width: 200px;
+    height: 50px;
+    background-color: rgb(106, 109, 114);
+    color: white;
+    font-size: 16px;
+}
+.music button:hover {
+    background-color: rgb(213, 209, 209);
+    color:  rgb(106, 109, 114);
+    transition: 1s;
+    font-weight: bold;
+}
+.music img{
+    width: 1100px;
+    height: 650px;
+}
+
+/* video section */
+
+.video{
+    text-align: center;
+    padding: 30px;
+}
+.video h1{
+    font-size: 35px;
+    padding: 25px;
+}
+.video p{
+    font-size: 18px;
+    padding: 10px;
+}
+.video button{
+    width: 150px;
+    height: 50px;
+    background-color: rgb(246, 43, 43);
+    color: white;
+    font-size: 16px;
+    margin: 25px 0px;
+    cursor: pointer;
+}
+.video button:hover{
+    background-color: rgb(213, 209, 209);
+    color:  rgb(106, 109, 114);
+    transition: 1s;
+    font-weight: bold;
+}
+.video img{
+    width: 1200px;
+    height: 600px;
+}
+
+/* description section */
+
+.description{
+    width: 1518px;
+    height: 450px;
+    background: url('./images/frank-septillion-Qrspubmx6kE-unsplash.jpg') no-repeat;
+    background-size: cover;
+    color: white;
+    text-align: center;
+}
+.description h1{
+    padding: 35px;
+    font-size: 35px;
+}
+.desc{
+    width: 1000px;
+    margin: 100px auto;
+    font-size: 23px;
+}
+
+/* gift voucher section */
+
+.gift{
+    width: 1200px;
+    height: 400px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin: 50px auto;
+    gap: 15px;
+}
+.gift img{
+    width: 100%;
+    height: 70%;
+    margin: 60px auto;
+}
+.voucher-detail{
+    width: 100%;
+    height: 70%;
+    margin: 60px auto;
+}
+.voucher-detail{
+    padding: 10px;
+}
+.voucher-detail h4{
+    font-size: 25px;
+}
+.voucher-detail p{
+    font-size: 17px;
+    margin: 15px auto;
+}
+hr{
+    color: gray;
+}
+.voucher-detail button{
+    border: none;
+    font-size: 15px;
+    margin: 5px auto;
+    cursor: pointer;
+}
+footer{
+    width: 100%;
+    height: 300px;
+    background-color: rgb(52, 49, 49);
+    color: white;
+}
+.footer{
+    width: 80%;
+    height: 150px;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    margin: auto;
+    gap: 20px;
+    padding: 50px 0px;
+}
+.footer ul li{
+    list-style-type: none;
+    margin: 10px 0px;
+}
+.footer ul li a{
+    text-decoration: none;
+    margin: 10px 0px;
+    color: white;
+}
+hr{
+    width: 250px;
+    margin: 10px 0px;
+}
+.copy{
+    width: 100%;
+}
+.copyright{
+    text-align: center;
+    margin: 10px 0px;
+}
